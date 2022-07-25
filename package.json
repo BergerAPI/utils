@@ -1,0 +1,28 @@
+{
+  "name": "@bergerapi/utils",
+  "version": "0.0.1",
+  "description": "Simple node-package to have some nice utilities for building functional backends.",
+  "main": "./lib/index.js",
+  "scripts": {
+    "build": "tsc -p .",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BergerAPI/utils.git"
+  },
+  "keywords": [],
+  "author": "Niclas Berger <https://github.com/BergerAPI>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BergerAPI/utils/issues"
+  },
+  "homepage": "https://github.com/BergerAPI/utils#readme",
+  "devDependencies": {
+    "@types/jest": "^28.1.6",
+    "@types/node": "^18.6.1",
+    "jest": "^28.1.3",
+    "ts-jest": "^28.0.7",
+    "typescript": "^4.7.4"
+  }
+}
