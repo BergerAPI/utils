@@ -1,7 +1,6 @@
 {
   "compilerOptions": {
     "target": "ES5",
-    "module": "CommonJS",
     "lib": [
       "es2021",
       "dom"
@@ -16,5 +15,11 @@
     ],
     "esModuleInterop": true,
     "resolveJsonModule": true
-  }
+  },
+  "include": [
+    "src/**/*"
+  ],
+  "exclude": [
+    "src/**/*.test.ts"
+  ]
 }
