@@ -7,10 +7,16 @@ class Requirement {
         private _value: any,
     ) { }
 
+    /**
+     * Returns the currently bound value.
+     */
     public getValue() {
         return this._value;
     }
-
+    
+    /**
+     * Binds a new value, and checks whether it should run the function provided
+     */
     public bind(func: any): Requirement {
         if (this._value === null)
             return this;
@@ -18,7 +24,10 @@ class Requirement {
         this._value = func(this._value);
         return this;
     }
-
+    
+    /**
+     * Checks if the current bound value has certain variables
+     */
     public check(...variables: string[]): Requirement {
         if (this._value !== null)
             for (const variable of variables)
