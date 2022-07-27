@@ -1,6 +1,6 @@
 {
   "name": "@bergerapi/utils",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Simple node-package to have some nice utilities for building functional backends.",
   "main": "./lib/index.js",
   "scripts": {
