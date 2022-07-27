@@ -2,7 +2,7 @@
  * Simple Monad to reduce duplicate code and check if certain values contain
  * certain properties
  */
-class Requirement {
+export class Requirement {
     constructor(
         /**
          * Currently bound value
@@ -43,5 +43,3 @@ class Requirement {
         return this;
     }
 }
-
-export default Requirement;
